@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "dist/shop-App",
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
